@@ -1,4 +1,4 @@
-angular.module('APZ.app.controllers', [])
+angular.module('IS.app.controllers', [])
 
 .controller('DashCtrl', function($scope) {})
 

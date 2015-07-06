@@ -1,9 +1,9 @@
-angular.module('APZ.app', [
+angular.module('IS.app', [
   'ionic',
-  'APZ.app.controllers',
-  'APZ.app.services',
-  'APZ.app.directives',
-  'APZ.app.filters'
+  'IS.app.controllers',
+  'IS.app.services',
+  'IS.app.directives',
+  'IS.app.filters'
 ])
 
 .run(function($ionicPlatform) {

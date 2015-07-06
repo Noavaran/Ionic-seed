@@ -1,1 +1,1 @@
-angular.module('APZ.app.directives', []);
+angular.module('IS.app.directives', []);

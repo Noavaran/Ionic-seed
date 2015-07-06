@@ -45,7 +45,7 @@ gulp.task('git-check', function(done) {
       '\n  Git, the version control system, is required to download Ionic.',
       '\n  Download git here:', gutil.colors.cyan('http://git-scm.com/downloads') + '.',
       '\n  Once git is installed, run \'' + gutil.colors.cyan('gulp install') + '\' again.',
-      '\n ' + gutil.colors.white('Configured framework by Ali Pour Zahmatkesh')
+      '\n ' + gutil.colors.white('Configured Ionic-seed framework')
     );
     process.exit(1);
   }

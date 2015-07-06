@@ -1,4 +1,4 @@
-angular.module('APZ.app.services', [])
+angular.module('IS.app.services', [])
 
 .factory('Chats', function() {
   // Might use a resource here that returns a JSON array

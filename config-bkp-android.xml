@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.APZ-IonicDefault" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>APZ Ionic Default Project</name>
-  <description>An Ionic Default Framework and Cordova project configured by Ali Pour Zahmatkesh, Email Addredd : info@ali-pourzahmatkesh.com, Website : http://www.ali-pourzahmatkesh.com</description>
+<widget id="com.ionic-seed.default" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Ionic-seed</name>
+  <description>This project is an application skeleton for a typical hybrid mobile app.
+You can use it to quickly bootstrap your Ionic hybrid app projects and dev environment for these projects.</description>
   <author email="info@ali-pourzahmatkesh.com" href="http://www.ali-pourzahmatkesh.com">Ali Pour Zahmatkesh</author>
+  <author email="m.golabshekar@gmail.com" href="http://www.ali-pourzahmatkesh.com">Mohammad Reza Golabshekar</author>
   <content src="index.html"/>
   <access origin="*"/>
   <allow-navigation href="*" />

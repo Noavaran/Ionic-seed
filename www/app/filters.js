@@ -1,1 +1,1 @@
-angular.module('APZ.app.filters', []);
+angular.module('IS.app.filters', []);
