@@ -76,7 +76,7 @@ plugins                         --> Any Cordova Plugins that you install will be
 resources/                      --> all
 scss/                           --> Stores Ionic's SCSS file, but you can (optionally) put your own SCSS files in there too
 www/                            --> This contains the meat of our Ionic application; you'll be spending most of your time in here.
-  app/  --> All of your application Javascript files will be place in here.
+  app/                          --> All of your application Javascript files will be place in here.
     templates/                  --> all ionic view templates store here
     app.js                      --> main javascript file that handle your application bootstraping, configuring and runing
     controllers.js              --> all controllers defined here
@@ -87,13 +87,13 @@ www/                            --> This contains the meat of our Ionic applicat
   img/                          --> Where you should store any image assets.
   lib/                          --> Any external libraries will be placed in here. To start, only Ionic shows up in this folder.
   index.html                    --> This is the starting point for our application. It will load up all of the necessary JS, HTML and CSS files. Whenever you create a new Javascript or CSS file, you will need to ensure you are linking to it from the index.html file.
-bower.json                    --> Used for managing your app's dependencies via the bower package management tool. By default, the Ionic Framework is the only dependency, but you can add more as needed
-config-bkp-android.xml        --> This is the configuration file for Cordova. It's used for Cordova plugin management and app settings for ANDROID platform.
-config-bkp-ios.xml            --> This is the configuration file for Cordova. It's used for Cordova plugin management and app settings for IOS platform.
-config.xml                    --> This is the configuration file for Cordova. It's used for Cordova plugin management and app settings.
-gulpfile.js                   --> This file is used for compiling SASS and other Ionic Framework specific tasks via the gulp task runner.
-package.json                  --> All of your npm dependencies are stored in this file.
-ionic.project                 --> This is used for the configuration of the ionic CLI tool. You can learn about some of the configuration options available [https://github.com/driftyco/ionic-cli]
+bower.json                      --> Used for managing your app's dependencies via the bower package management tool. By default, the Ionic Framework is the only dependency, but you can add more as needed
+config-bkp-android.xml          --> This is the configuration file for Cordova. It's used for Cordova plugin management and app settings for ANDROID platform.
+config-bkp-ios.xml              --> This is the configuration file for Cordova. It's used for Cordova plugin management and app settings for IOS platform.
+config.xml                      --> This is the configuration file for Cordova. It's used for Cordova plugin management and app settings.
+gulpfile.js                     --> This file is used for compiling SASS and other Ionic Framework specific tasks via the gulp task runner.
+package.json                    --> All of your npm dependencies are stored in this file.
+ionic.project                   --> This is used for the configuration of the ionic CLI tool. You can learn about some of the configuration options available [https://github.com/driftyco/ionic-cli]
 ```
 
 ## Updating Ionic
@@ -118,7 +118,7 @@ bower update
 
 This will find the latest versions that match the version ranges specified in the `bower.json` file.
 
-## Contact
+## More Info
 
 For more information on project please check out http://ionicframework.com
 
@@ -128,7 +128,7 @@ For more information on project please check out http://ionicframework.com
 [npm]: https://www.npmjs.org/
 [node]: http://nodejs.org
 
-## Contact
+## Developers Contact Information
 
 * Ali Pour Zahmatkesh ( info[at]ali-pourzahmatkesh.com ) [http://wwww.ali-pourzahmatkesh.com]
 * Mohammad Reza Golabshekar ( m.golabshekar[at]gmail.com )
