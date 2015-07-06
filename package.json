@@ -20,5 +20,31 @@
     "cordova-plugin-whitelist",
     "cordova-plugin-splashscreen",
     "com.ionic.keyboard"
+  ],
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://github.com/ali-pourzahmatkesh/Ionic-seed.git"
+  },
+  "keywords" : [
+    "ionic-seed",
+    "ionic",
+    "ionicframework",
+    "ionic-material",
+    "hybrid mobile"
+  ],
+  "license": "UNLICENSED",
+  "author" : { 
+    "name" : "Ali Pour Zahmatkesh",
+    "email" : "info@ali-pourzahmatkesh.com",
+    "url" : "http://www.ali-pourzahmatkesh.com/"
+  },
+  "contributors" : [
+    {
+      "name" : "Ali Pour Zahmatkesh"
+    },
+    {
+      "name" : "Mohammad Reza Golabshekar"
+    }
   ]
+
 }
