@@ -1,0 +1,245 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.9
+3 info using node@v0.11.13
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/alipourzahmatkesh/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/sg/v4vbn2053xz7dxmkdb2cbwh00000gn/T/npm-14670-pOoaJJGE/1436166731035-0.7005340210162103/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/sg/v4vbn2053xz7dxmkdb2cbwh00000gn/T/npm-14670-pOoaJJGE/1436166731035-0.7005340210162103/tmp.tgz
+12 verbose folder .
+13 info prepublish ionic-seed@1.0.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/alipourzahmatkesh/.npm/1f1177db-tar.lock
+16 silly lockFile 73eb877f-31035-0-7005340210162103-tmp-tgz tar:///var/folders/sg/v4vbn2053xz7dxmkdb2cbwh00000gn/T/npm-14670-pOoaJJGE/1436166731035-0.7005340210162103/tmp.tgz
+17 verbose lock tar:///var/folders/sg/v4vbn2053xz7dxmkdb2cbwh00000gn/T/npm-14670-pOoaJJGE/1436166731035-0.7005340210162103/tmp.tgz /Users/alipourzahmatkesh/.npm/73eb877f-31035-0-7005340210162103-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 73eb877f-31035-0-7005340210162103-tmp-tgz tar:///var/folders/sg/v4vbn2053xz7dxmkdb2cbwh00000gn/T/npm-14670-pOoaJJGE/1436166731035-0.7005340210162103/tmp.tgz
+21 silly lockFile 73eb877f-31035-0-7005340210162103-tmp-tgz tar:///var/folders/sg/v4vbn2053xz7dxmkdb2cbwh00000gn/T/npm-14670-pOoaJJGE/1436166731035-0.7005340210162103/tmp.tgz
+22 verbose tar unpack /var/folders/sg/v4vbn2053xz7dxmkdb2cbwh00000gn/T/npm-14670-pOoaJJGE/1436166731035-0.7005340210162103/tmp.tgz
+23 silly lockFile 2a9a30d5-esh-npm-ionic-seed-1-0-0-package tar:///Users/alipourzahmatkesh/.npm/ionic-seed/1.0.0/package
+24 verbose lock tar:///Users/alipourzahmatkesh/.npm/ionic-seed/1.0.0/package /Users/alipourzahmatkesh/.npm/2a9a30d5-esh-npm-ionic-seed-1-0-0-package.lock
+25 silly lockFile 73eb877f-31035-0-7005340210162103-tmp-tgz tar:///var/folders/sg/v4vbn2053xz7dxmkdb2cbwh00000gn/T/npm-14670-pOoaJJGE/1436166731035-0.7005340210162103/tmp.tgz
+26 verbose lock tar:///var/folders/sg/v4vbn2053xz7dxmkdb2cbwh00000gn/T/npm-14670-pOoaJJGE/1436166731035-0.7005340210162103/tmp.tgz /Users/alipourzahmatkesh/.npm/73eb877f-31035-0-7005340210162103-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry gulpfile.js
+32 silly gunzTarPerm extractEntry hooks/README.md
+33 silly gunzTarPerm extractEntry hooks/after_prepare/010_add_platform_class.js
+34 silly gunzTarPerm extractEntry config-bkp-ios.xml
+35 silly gunzTarPerm extractEntry config.xml
+36 silly gunzTarPerm extractEntry .bowerrc
+37 silly gunzTarPerm extractEntry bower.json
+38 silly gunzTarPerm extractEntry ionic.project
+39 silly gunzTarPerm extractEntry scss/ionic.app.scss
+40 silly gunzTarPerm extractEntry config-bkp-android.xml
+41 silly gunzTarPerm extractEntry resources/icon.psd
+42 silly gunzTarPerm modified mode [ 'resources/icon.psd', 416, 420 ]
+43 silly gunzTarPerm extractEntry resources/splash.psd
+44 silly gunzTarPerm modified mode [ 'resources/splash.psd', 416, 420 ]
+45 silly gunzTarPerm extractEntry www/app/app.js
+46 silly gunzTarPerm extractEntry www/app/controllers.js
+47 silly gunzTarPerm extractEntry www/app/directives.js
+48 silly gunzTarPerm extractEntry www/app/filters.js
+49 silly gunzTarPerm extractEntry www/app/services.js
+50 silly gunzTarPerm extractEntry www/app/templates/chat-detail.html
+51 silly gunzTarPerm extractEntry www/app/templates/tab-account.html
+52 silly gunzTarPerm extractEntry www/app/templates/tab-chats.html
+53 silly gunzTarPerm extractEntry www/app/templates/tab-dash.html
+54 silly gunzTarPerm extractEntry www/app/templates/tabs.html
+55 silly gunzTarPerm extractEntry www/css/ionic.app.css
+56 silly gunzTarPerm extractEntry www/css/ionic.app.min.css
+57 silly gunzTarPerm extractEntry www/css/style.css
+58 silly gunzTarPerm extractEntry www/img/ionic.png
+59 silly gunzTarPerm extractEntry www/index.html
+60 silly gunzTarPerm extractEntry www/lib/angular/package.json
+61 silly gunzTarPerm extractEntry www/lib/angular/README.md
+62 silly gunzTarPerm extractEntry www/lib/angular/angular.js
+63 silly gunzTarPerm extractEntry www/lib/angular/angular.min.js
+64 silly gunzTarPerm extractEntry www/lib/angular/.bower.json
+65 silly gunzTarPerm extractEntry www/lib/angular/angular-csp.css
+66 silly gunzTarPerm extractEntry www/lib/angular/angular.min.js.gzip
+67 silly gunzTarPerm extractEntry www/lib/angular/angular.min.js.map
+68 silly gunzTarPerm extractEntry www/lib/angular/bower.json
+69 silly gunzTarPerm extractEntry www/lib/angular-animate/package.json
+70 silly gunzTarPerm extractEntry www/lib/angular-animate/README.md
+71 silly gunzTarPerm extractEntry www/lib/angular-animate/angular-animate.js
+72 silly gunzTarPerm extractEntry www/lib/angular-animate/angular-animate.min.js
+73 silly gunzTarPerm extractEntry www/lib/angular-animate/.bower.json
+74 silly gunzTarPerm extractEntry www/lib/angular-animate/angular-animate.min.js.map
+75 silly gunzTarPerm extractEntry www/lib/angular-animate/bower.json
+76 silly gunzTarPerm extractEntry www/lib/angular-sanitize/package.json
+77 silly gunzTarPerm extractEntry www/lib/angular-sanitize/README.md
+78 silly gunzTarPerm extractEntry www/lib/angular-sanitize/angular-sanitize.js
+79 silly gunzTarPerm extractEntry www/lib/angular-sanitize/angular-sanitize.min.js
+80 silly gunzTarPerm extractEntry www/lib/angular-sanitize/.bower.json
+81 silly gunzTarPerm extractEntry www/lib/angular-sanitize/angular-sanitize.min.js.map
+82 silly gunzTarPerm extractEntry www/lib/angular-sanitize/bower.json
+83 silly gunzTarPerm extractEntry www/lib/angular-ui-router/README.md
+84 silly gunzTarPerm extractEntry www/lib/angular-ui-router/LICENSE
+85 silly gunzTarPerm extractEntry www/lib/angular-ui-router/.bower.json
+86 silly gunzTarPerm extractEntry www/lib/angular-ui-router/CHANGELOG.md
+87 silly gunzTarPerm extractEntry www/lib/angular-ui-router/CONTRIBUTING.md
+88 silly gunzTarPerm extractEntry www/lib/angular-ui-router/api/angular-ui-router.d.ts
+89 silly gunzTarPerm extractEntry www/lib/angular-ui-router/bower.json
+90 silly gunzTarPerm extractEntry www/lib/angular-ui-router/release/angular-ui-router.js
+91 silly gunzTarPerm extractEntry www/lib/angular-ui-router/release/angular-ui-router.min.js
+92 silly gunzTarPerm extractEntry www/lib/angular-ui-router/src/common.js
+93 silly gunzTarPerm extractEntry www/lib/angular-ui-router/src/state.js
+94 silly gunzTarPerm extractEntry www/lib/angular-ui-router/src/stateDirectives.js
+95 silly gunzTarPerm extractEntry www/lib/angular-ui-router/src/stateFilters.js
+96 silly gunzTarPerm extractEntry www/lib/angular-ui-router/src/resolve.js
+97 silly gunzTarPerm extractEntry www/lib/angular-ui-router/src/urlMatcherFactory.js
+98 silly gunzTarPerm extractEntry www/lib/angular-ui-router/src/urlRouter.js
+99 silly gunzTarPerm extractEntry www/lib/angular-ui-router/src/view.js
+100 silly gunzTarPerm extractEntry www/lib/angular-ui-router/src/viewDirective.js
+101 silly gunzTarPerm extractEntry www/lib/angular-ui-router/src/viewScroll.js
+102 silly gunzTarPerm extractEntry www/lib/angular-ui-router/src/templateFactory.js
+103 silly gunzTarPerm extractEntry www/lib/ionic/README.md
+104 silly gunzTarPerm extractEntry www/lib/ionic/.bower.json
+105 silly gunzTarPerm extractEntry www/lib/ionic/bower.json
+106 silly gunzTarPerm extractEntry www/lib/ionic/css/ionic.css
+107 silly gunzTarPerm extractEntry www/lib/ionic/css/ionic.min.css
+108 silly gunzTarPerm extractEntry www/lib/ionic/fonts/ionicons.eot
+109 silly gunzTarPerm extractEntry www/lib/ionic/fonts/ionicons.svg
+110 silly gunzTarPerm extractEntry www/lib/ionic/fonts/ionicons.ttf
+111 silly gunzTarPerm extractEntry www/lib/ionic/fonts/ionicons.woff
+112 silly gunzTarPerm extractEntry www/lib/ionic/js/ionic-angular.js
+113 silly gunzTarPerm extractEntry www/lib/ionic/js/ionic-angular.min.js
+114 silly gunzTarPerm extractEntry www/lib/ionic/js/ionic.bundle.js
+115 silly gunzTarPerm extractEntry www/lib/ionic/js/ionic.bundle.min.js
+116 silly gunzTarPerm extractEntry www/lib/ionic/js/ionic.js
+117 silly gunzTarPerm extractEntry www/lib/ionic/js/ionic.min.js
+118 silly gunzTarPerm extractEntry www/lib/ionic/scss/_popup.scss
+119 silly gunzTarPerm extractEntry www/lib/ionic/scss/_action-sheet.scss
+120 silly gunzTarPerm extractEntry www/lib/ionic/scss/_backdrop.scss
+121 silly gunzTarPerm extractEntry www/lib/ionic/scss/_badge.scss
+122 silly gunzTarPerm extractEntry www/lib/ionic/scss/_bar.scss
+123 silly gunzTarPerm extractEntry www/lib/ionic/scss/_button-bar.scss
+124 silly gunzTarPerm extractEntry www/lib/ionic/scss/_button.scss
+125 silly gunzTarPerm extractEntry www/lib/ionic/scss/_checkbox.scss
+126 silly gunzTarPerm extractEntry www/lib/ionic/scss/_form.scss
+127 silly gunzTarPerm extractEntry www/lib/ionic/scss/_grid.scss
+128 silly gunzTarPerm extractEntry www/lib/ionic/scss/_items.scss
+129 silly gunzTarPerm extractEntry www/lib/ionic/scss/_list.scss
+130 silly gunzTarPerm extractEntry www/lib/ionic/scss/_loaders.scss
+131 silly gunzTarPerm extractEntry www/lib/ionic/scss/_loading.scss
+132 silly gunzTarPerm extractEntry www/lib/ionic/scss/_menu.scss
+133 silly gunzTarPerm extractEntry www/lib/ionic/scss/_mixins.scss
+134 silly gunzTarPerm extractEntry www/lib/ionic/scss/_modal.scss
+135 silly gunzTarPerm extractEntry www/lib/ionic/scss/_platform.scss
+136 silly gunzTarPerm extractEntry www/lib/ionic/scss/_popover.scss
+137 silly gunzTarPerm extractEntry www/lib/ionic/scss/_animations.scss
+138 silly gunzTarPerm extractEntry www/lib/ionic/scss/_progress.scss
+139 silly gunzTarPerm extractEntry www/lib/ionic/scss/_radio.scss
+140 silly gunzTarPerm extractEntry www/lib/ionic/scss/_range.scss
+141 silly gunzTarPerm extractEntry www/lib/ionic/scss/_refresher.scss
+142 silly gunzTarPerm extractEntry www/lib/ionic/scss/_reset.scss
+143 silly gunzTarPerm extractEntry www/lib/ionic/scss/_scaffolding.scss
+144 silly gunzTarPerm extractEntry www/lib/ionic/scss/_select.scss
+145 silly gunzTarPerm extractEntry www/lib/ionic/scss/_slide-box.scss
+146 silly gunzTarPerm extractEntry www/lib/ionic/scss/_spinner.scss
+147 silly gunzTarPerm extractEntry www/lib/ionic/scss/_split-pane.scss
+148 silly gunzTarPerm extractEntry www/lib/ionic/scss/_tabs.scss
+149 silly gunzTarPerm extractEntry www/lib/ionic/scss/_toggle.scss
+150 silly gunzTarPerm extractEntry www/lib/ionic/scss/_transitions.scss
+151 silly gunzTarPerm extractEntry www/lib/ionic/scss/_type.scss
+152 silly gunzTarPerm extractEntry www/lib/ionic/scss/_util.scss
+153 silly gunzTarPerm extractEntry www/lib/ionic/scss/_variables.scss
+154 silly gunzTarPerm extractEntry www/lib/ionic/scss/ionic.scss
+155 silly gunzTarPerm extractEntry www/lib/ionic/scss/ionicons/_ionicons-animation.scss
+156 silly gunzTarPerm extractEntry www/lib/ionic/scss/ionicons/_ionicons-font.scss
+157 silly gunzTarPerm extractEntry www/lib/ionic/scss/ionicons/_ionicons-icons.scss
+158 silly gunzTarPerm extractEntry www/lib/ionic/scss/ionicons/_ionicons-variables.scss
+159 silly gunzTarPerm extractEntry www/lib/ionic/scss/ionicons/ionicons.scss
+160 silly lockFile 2a9a30d5-esh-npm-ionic-seed-1-0-0-package tar:///Users/alipourzahmatkesh/.npm/ionic-seed/1.0.0/package
+161 silly lockFile 2a9a30d5-esh-npm-ionic-seed-1-0-0-package tar:///Users/alipourzahmatkesh/.npm/ionic-seed/1.0.0/package
+162 silly lockFile 73eb877f-31035-0-7005340210162103-tmp-tgz tar:///var/folders/sg/v4vbn2053xz7dxmkdb2cbwh00000gn/T/npm-14670-pOoaJJGE/1436166731035-0.7005340210162103/tmp.tgz
+163 silly lockFile 73eb877f-31035-0-7005340210162103-tmp-tgz tar:///var/folders/sg/v4vbn2053xz7dxmkdb2cbwh00000gn/T/npm-14670-pOoaJJGE/1436166731035-0.7005340210162103/tmp.tgz
+164 silly lockFile 3a52ce78- .
+165 silly lockFile 3a52ce78- .
+166 silly publish { name: 'ionic-seed',
+166 silly publish   version: '1.0.0',
+166 silly publish   description: 'Ionic-seed :: This project is an application skeleton for a typical hybrid mobile app. You can use it to quickly bootstrap your Ionic hybrid app projects and dev environment for these projects.',
+166 silly publish   dependencies:
+166 silly publish    { gulp: '^3.5.6',
+166 silly publish      'gulp-sass': '^1.3.3',
+166 silly publish      'gulp-concat': '^2.2.0',
+166 silly publish      'gulp-minify-css': '^0.3.0',
+166 silly publish      'gulp-rename': '^1.2.0' },
+166 silly publish   devDependencies: { bower: '^1.3.3', 'gulp-util': '^2.2.14', shelljs: '^0.3.0' },
+166 silly publish   cordovaPlugins:
+166 silly publish    [ 'cordova-plugin-device',
+166 silly publish      'cordova-plugin-console',
+166 silly publish      'cordova-plugin-whitelist',
+166 silly publish      'cordova-plugin-splashscreen',
+166 silly publish      'com.ionic.keyboard' ],
+166 silly publish   readme: '# Ionic-seed — the seed for Ionic apps\n\nThis project is an application skeleton for a typical [Ionic](http://http://ionicframework.com/) hybrid mobile app.\nYou can use it to quickly bootstrap your Ionic hybrid app projects and dev environment for these projects.\n\nThe seed contains a sample ionic application and is preconfigured to install the Ionic\nframework, Ionic Material and a bunch of development and testing tools for instant hybrid mobile app development gratification.\n\nThe seed app doesn\'t do much, just shows how to wire few controllers and views together. defaults icon and splash screen and also configuration xml file for both and ios.\n\n\n## Getting Started\n\nTo get you started you can simply clone the ionic-seed repository and install the dependencies:\n\n### Prerequisites\n\nYou need git to clone the ionic-seed repository. You can get git from\n[http://git-scm.com/](http://git-scm.com/).\n\nWe also use a number of node.js tools to initialize and test ionic-seed. You must have node.js and its package manager (npm) installed.  You can get them from [http://nodejs.org/](http://nodejs.org/).\n\n### Clone ionic-seed\n\nClone the ionic-seed repository using [git][git]:\n\n```\ngit clone https://github.com/ali-pourzahmatkesh/Ionic-seed.git\ncd ionic-seed\n```\n\nIf you just want to start a new project without the ionic-seed commit history then you can do:\n\n```bash\ngit clone --depth=1 https://github.com/ali-pourzahmatkesh/Ionic-seed.git <your-project-name>\n```\n\nThe `depth=1` tells git to only pull down one commit worth of historical data.\n\n### Install Dependencies\n\nWe have two kinds of dependencies in this project: tools and ionic framework code. The tools help us manage and test the application.\n\n* We get the tools we depend upon via `npm`, the [node package manager][npm].\n* We get the ionic code via `bower`, a [client-side code package manager][bower].\n\nWe have preconfigured `npm` to automatically run `bower` so we can simply do:\n\n```\nnpm install\n```\n\nBehind the scenes this will also call `bower install`.  You should find that you have three new folders in your project.\n\n* `node_modules` - contains the npm packages for the tools we need\n* `bower_components` - contains the new components files\n* `app/lib/*` - contains javascripts libraries\n\n### Run the Application\n\nThe simplest way to start application is :\n\n```\nionic serve\n```\n\nNow browse to the app at `http://localhost:8100`.\n\n\n\n## Directory Layout\n\n```\nhook/                           --> This directory stores any Cordova Hooks that you may have.\nplugins                         --> Any Cordova Plugins that you install will be saved in this folder.\nresources/                      --> all\nscss/                           --> Stores Ionic\'s SCSS file, but you can (optionally) put your own SCSS files in there too\nwww/                            --> This contains the meat of our Ionic application; you\'ll be spending most of your time in here.\n  app/                          --> All of your application Javascript files will be place in here.\n    templates/                  --> all ionic view templates store here\n    app.js                      --> main javascript file that handle your application bootstraping, configuring and runing\n    controllers.js              --> all controllers defined here\n    directives.js               --> all directives defined here\n    filters.js                  --> all filters defined here\n    services.js                 --> all services defined here\n  css/                          --> Where you should store your CSS files.\n  img/                          --> Where you should store any image assets.\n  lib/                          --> Any external libraries will be placed in here. To start, only Ionic shows up in this folder.\n  index.html                    --> This is the starting point for our application. It will load up all of the necessary JS, HTML and CSS files. Whenever you create a new Javascript or CSS file, you will need to ensure you are linking to it from the index.html file.\nbower.json                      --> Used for managing your app\'s dependencies via the bower package management tool. By default, the Ionic Framework is the only dependency, but you can add more as needed\nconfig-bkp-android.xml          --> This is the configuration file for Cordova. It\'s used for Cordova plugin management and app settings for ANDROID platform.\nconfig-bkp-ios.xml              --> This is the configuration file for Cordova. It\'s used for Cordova plugin management and app settings for IOS platform.\nconfig.xml                      --> This is the configuration file for Cordova. It\'s used for Cordova plugin management and app settings.\ngulpfile.js                     --> This file is used for compiling SASS and other Ionic Framework specific tasks via the gulp task runner.\npackage.json                    --> All of your npm dependencies are stored in this file.\nionic.project                   --> This is used for the configuration of the ionic CLI tool. You can learn about some of the configuration options available [https://github.com/driftyco/ionic-cli]\n```\n\n## Updating Ionic\n\nPreviously we recommended that you merge in changes to ionic-seed into your own fork of the project.\nNow that the ionic framework library code and tools are acquired through package managers (npm and\nbower) you can use these tools instead to update the dependencies.\n\nYou can update the tool dependencies by running:\n\n```\nnpm update\n```\n\nThis will find the latest versions that match the version ranges specified in the `package.json` file.\n\nYou can update the Ionic dependencies by running:\n\n```\nbower update\n```\n\nThis will find the latest versions that match the version ranges specified in the `bower.json` file.\n\n## More Info\n\nFor more information on project please check out http://ionicframework.com\n\n[ionicframework]: http://ionicframework.com/\n[git]: http://git-scm.com/\n[bower]: http://bower.io\n[npm]: https://www.npmjs.org/\n[node]: http://nodejs.org\n\n## Developers Contact Information\n\n* Ali Pour Zahmatkesh ( info[at]ali-pourzahmatkesh.com ) [http://wwww.ali-pourzahmatkesh.com]\n* Mohammad Reza Golabshekar ( m.golabshekar[at]gmail.com )',
+166 silly publish   readmeFilename: 'README.md',
+166 silly publish   _id: 'ionic-seed@1.0.0',
+166 silly publish   _shasum: 'cd620a79e92a76f4e889b3614110ee070fe00ff4',
+166 silly publish   _from: '.' }
+167 verbose url raw ionic-seed
+168 verbose url resolving [ 'https://registry.npmjs.org/', './ionic-seed' ]
+169 verbose url resolved https://registry.npmjs.org/ionic-seed
+170 info trying registry request attempt 1 at 11:42:13
+171 http PUT https://registry.npmjs.org/ionic-seed
+172 http 500 https://registry.npmjs.org/ionic-seed
+173 info retry will retry, error on last attempt: Error: "i/ionic-seed/_attachments/ionic-seed-1.0.0.tgz had invalid shasum cd620a79e92a76f4e889b3614110ee070fe00ff4; expected sum=1080d77bc3c15190ac6f2478c97fff763ab619e7" : ionic-seed
+174 info trying registry request attempt 2 at 11:43:30
+175 http PUT https://registry.npmjs.org/ionic-seed
+176 http 500 https://registry.npmjs.org/ionic-seed
+177 info retry will retry, error on last attempt: Error: "i/ionic-seed/_attachments/ionic-seed-1.0.0.tgz had invalid shasum cd620a79e92a76f4e889b3614110ee070fe00ff4; expected sum=1080d77bc3c15190ac6f2478c97fff763ab619e7" : ionic-seed
+178 info trying registry request attempt 3 at 11:45:28
+179 http PUT https://registry.npmjs.org/ionic-seed
+180 http 500 https://registry.npmjs.org/ionic-seed
+181 verbose headers { 'content-type': 'application/json',
+181 verbose headers   'cache-control': 'max-age=0',
+181 verbose headers   'content-length': '193',
+181 verbose headers   'accept-ranges': 'bytes',
+181 verbose headers   date: 'Mon, 06 Jul 2015 07:16:24 GMT',
+181 verbose headers   via: '1.1 varnish',
+181 verbose headers   connection: 'close',
+181 verbose headers   'x-served-by': 'cache-lhr6335-LHR',
+181 verbose headers   'x-cache': 'MISS',
+181 verbose headers   'x-cache-hits': '0',
+181 verbose headers   'x-timer': 'S1436166928.889461,VS0,VE55923' }
+182 error publish Failed PUT 500
+183 error Error: "i/ionic-seed/_attachments/ionic-seed-1.0.0.tgz had invalid shasum cd620a79e92a76f4e889b3614110ee070fe00ff4; expected sum=1080d77bc3c15190ac6f2478c97fff763ab619e7" : ionic-seed
+183 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:273:14)
+183 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:211:65)
+183 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+183 error     at Request.EventEmitter.emit (events.js:110:17)
+183 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+183 error     at Request.EventEmitter.emit (events.js:129:20)
+183 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+183 error     at IncomingMessage.EventEmitter.emit (events.js:129:20)
+183 error     at _stream_readable.js:898:16
+183 error     at process._tickCallback (node.js:343:11)
+184 error If you need help, you may report this *entire* log,
+184 error including the npm and node versions, at:
+184 error     <http://github.com/npm/npm/issues>
+185 error System Darwin 14.0.0
+186 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+187 error cwd /Applications/XAMPP/xamppfiles/WEB-SERVER/shinatech/mobile-development/ionic/Ionic-seed
+188 error node -v v0.11.13
+189 error npm -v 1.4.9
+190 verbose exit [ 1, true ]
